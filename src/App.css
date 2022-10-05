@@ -1,0 +1,80 @@
+body {
+}
+
+.logo-width {
+  width: 200px;
+  height: 48px;
+}
+
+.hero-titles {
+  background-image: url("assets/hero-bg.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.hero-h1 {
+  font-size: 18px;
+}
+
+.hero-h2 {
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.hero-phone-images {
+  height: 290px;
+}
+
+.hero-phones-container {
+  margin-left: -80px;
+  margin-right: -80px;
+  width: calc(100% + 160px - 12px);
+}
+
+.hero {
+  overflow: hidden;
+}
+
+.service-card {
+  max-width: 300px;
+}
+
+.service-card .sc-image-container .sci-bg-image img:first-child {
+  width: 130px;
+  /* transform: rotate(-20deg); */
+}
+
+.service-card .sc-image-container .sci-bg-image img:last-child {
+  left: 25px;
+  top: 35px;
+  width: 100px;
+}
+
+@media (min-width: 768px) {
+  .hero-h1 {
+    font-size: 28px;
+  }
+  .hero-h2 {
+    font-size: 85px;
+    line-height: 102px;
+    font-weight: 700;
+  }
+  .hero-phones-container {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+  }
+
+  .hero-phone-images {
+    height: 600px;
+  }
+  .hero-phone-images:nth-child(2) {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .hero-titles {
+    /* padding-bottom: 30px; */
+  }
+}
