@@ -20,6 +20,7 @@ const Services = ({ services }) => {
 const ServicesCarousel = ({ services }) => {
   return (
     <Carousel
+      // currently interval is off, will add the timer for interval once confirmed
       interval={null}
       indicators={false}
       nextIcon={<FiArrowRight color="#2F2BAB" size={40} />}

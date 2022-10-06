@@ -11,6 +11,7 @@ import device from "../assets/device.png";
 import svgImage from "../assets/contract-group-hero.svg";
 import svgImage2 from "../assets/contract-group-hero2.svg";
 import RequestDemo from "../components/RequestDemo";
+import Footer from "../components/Footer";
 
 const services = [
   {
@@ -45,6 +46,7 @@ const Home = () => {
         <Services services={services} />
       </div>
       <RequestDemo />
+      <Footer />
     </div>
   );
 };
