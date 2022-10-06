@@ -31,7 +31,7 @@ const Footer = () => {
             src={logo}
             alt="Brand-Logo"
           />
-          <p className="footer-copyright">
+          <p className="footer-copyright md-mb-0">
             © 2022 OnPath. All Rights Reserved.
           </p>
           <div>

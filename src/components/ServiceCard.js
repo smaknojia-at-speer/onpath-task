@@ -1,7 +1,6 @@
 import React from "react";
 
 const ServiceCard = ({ svgImage, bgImage, title, description }) => {
-  console.log(svgImage);
   return (
     <section className="service-card text-center d-md-flex justify-content-center">
       <div className="d-md-flex flex-row-reverse justify-content-center align-items-center">
