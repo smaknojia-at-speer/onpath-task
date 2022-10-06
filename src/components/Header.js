@@ -7,7 +7,11 @@ const Header = () => {
     <header className="container mt-3 d-flex justify-content-between">
       <img src={Logo} className="logo-width" alt="brand" />
       <div className="d-none d-md-block">
-        <CustomButton bgcolour="primary" content="Get Started" />
+        <CustomButton
+          width={"200px"}
+          bgcolour="primary"
+          content="Get Started"
+        />
       </div>
     </header>
   );

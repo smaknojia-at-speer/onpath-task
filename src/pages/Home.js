@@ -10,6 +10,7 @@ import device from "../assets/device.png";
 
 import svgImage from "../assets/contract-group-hero.svg";
 import svgImage2 from "../assets/contract-group-hero2.svg";
+import RequestDemo from "../components/RequestDemo";
 
 const services = [
   {
@@ -40,7 +41,10 @@ const Home = () => {
     <div>
       <Header />
       <Hero />
-      <Services services={services} />
+      <div style={{ marginTop: "150px" }}>
+        <Services services={services} />
+      </div>
+      <RequestDemo />
     </div>
   );
 };
