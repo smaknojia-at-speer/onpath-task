@@ -146,6 +146,12 @@ body {
   line-height: 21px;
 }
 
+.horizontal-line {
+  width: 100%;
+  text-align: left;
+  margin-left: 0;
+}
+
 .solutions {
   background-color: #2c2d43;
   &__content {
@@ -205,12 +211,25 @@ body {
   border: none;
 }
 
+.footer-icons-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  // width: 100% !important;
+}
+.footer-brand__names > .horizontal-line {
+  padding-top: 10px;
+}
+
 /* _________________________________________________________________________
 
 Media Queries for 768px and above screens
 
 _______________________________________________________________________* */
 @media (min-width: 768px) {
+  .horizontal-line-large {
+    margin-top: 56px;
+  }
   .hero-h1 {
     font-size: 28px;
     margin-top: 152px;
@@ -322,5 +341,12 @@ _______________________________________________________________________* */
     background-color: transparent;
     margin-left: 4px;
     cursor: pointer;
+  }
+
+  .footer-icons-button {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
 }

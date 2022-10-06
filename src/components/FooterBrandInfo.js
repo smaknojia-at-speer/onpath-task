@@ -5,11 +5,13 @@ import brandTitle from "./../assets/footer-brand-name.svg";
 const FooterBrandInfo = () => {
   return (
     <div className="d-flex flex-column footer-brand__names justify-content-center align-items-center ">
-      <img
-        className="footer-brand footer-brand__names--brand-logo footer-logo-svg d-md-none "
-        src={logo}
-        alt="Brand"
-      />
+      <div>
+        <img
+          className="footer-brand footer-brand__names--brand-logo footer-logo-svg d-md-none "
+          src={logo}
+          alt="Brand"
+        />
+      </div>
       <img
         className="footer-brand__names--brand-title my-3"
         src={brandTitle}
