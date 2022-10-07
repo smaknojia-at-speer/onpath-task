@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "./../assets/logo-image.svg";
-import brandTitle from "./../assets/footer-brand-name.svg";
+import brandTitle from "./../assets/onpath.png";
 
 const FooterBrandInfo = () => {
   return (
@@ -17,7 +17,7 @@ const FooterBrandInfo = () => {
         src={brandTitle}
         alt="Brand Name"
       />
-      <p className="footer-brand__names--slogan text-center">
+      <p className="footer-brand__names--slogan font-inter text-center">
         Integrated web and mobile platform that allows users to track assets in
         real time, across the globe, securely.
       </p>

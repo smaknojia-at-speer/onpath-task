@@ -18,7 +18,7 @@ const SolutionCard = () => {
             >
               {solution.title}
             </h2>
-            <p className="text-white text-white solution-card__container--description">
+            <p className="text-white font-inter text-white solution-card__container--description">
               {solution.description}
             </p>
           </div>

@@ -27,7 +27,7 @@ const Solutions = () => {
           <h2 className="text-white solutions__content--title">
             Our Solutions
           </h2>
-          <p className="text-white solutions__content--info">
+          <p className="text-white font-inter solutions__content--info">
             Discover our customizable feature set created to support a seamless
             fleet management experience.
           </p>

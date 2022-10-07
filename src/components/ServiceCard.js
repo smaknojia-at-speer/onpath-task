@@ -10,9 +10,9 @@ const ServiceCard = ({ svgImage, bgImage, title, description }) => {
             <img className="position-absolute" src={bgImage} alt="svg" />
           </div>
         </div>
-        <h3 className="sci-title">{title}</h3>
+        <h3 className="sci-title font-inter">{title}</h3>
       </div>
-      <p className="sci-description d-md-flex align-items-center">
+      <p className="sci-description font-inter d-md-flex align-items-center">
         {description}
       </p>
     </section>

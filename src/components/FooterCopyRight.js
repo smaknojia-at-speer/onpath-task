@@ -11,7 +11,7 @@ const FooterCopyRight = () => {
         src={logo}
         alt="Brand-Logo"
       />
-      <p className="footer-copyright md-mb-0 text-center">
+      <p className="footer-copyright fw-400 font-inter md-mb-0 text-center">
         © 2022 OnPath. All Rights Reserved.
       </p>
       <FooterIcons />
