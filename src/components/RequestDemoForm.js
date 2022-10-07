@@ -5,7 +5,7 @@ import CustomFormControl from "./CustomFormControl";
 
 const RequestDemoForm = () => {
   return (
-    <Form className="requested-demo-form">
+    <Form className="requested-demo-form container">
       <div className="d-md-flex d-md-justify-content-between requested-demo-form-name">
         <CustomFormControl label="First Name" type="text" />
         <CustomFormControl label="Last Name" type="text" />

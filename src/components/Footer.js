@@ -5,7 +5,7 @@ import FooterCopyRight from "./FooterCopyRight";
 
 const Footer = () => {
   return (
-    <footer className="custom-footer">
+    <footer className="custom-footer container">
       <div className="container">
         <hr
           style={{ width: "100%" }}
