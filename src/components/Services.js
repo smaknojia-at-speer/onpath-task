@@ -1,7 +1,6 @@
 import React from "react";
-import ServiceCard from "./ServiceCard";
-import Carousel from "react-bootstrap/Carousel";
-import { FiArrowRight, FiArrowLeft } from "react-icons/fi";
+import ServicesStack from "./ServiceStack";
+import ServiceCarousel  from "./ServiceCarousel";
 
 const Services = ({ services }) => {
   return (
@@ -13,54 +12,9 @@ const Services = ({ services }) => {
       </div>
       {/* for larger screen */}
       <div className="d-none d-md-block">
-        <ServicesCarousel services={services} />
+        <ServiceCarousel services={services} />
       </div>
     </div>
-  );
-};
-
-
-// Mobile Carousel
-const ServicesCarousel = ({ services }) => {
-  return (
-    <Carousel
-      // currently interval is off, will add the timer for interval once confirmed
-      interval={null}
-      indicators={false}
-      nextIcon={<FiArrowRight color="#2F2BAB" size={40} />}
-      prevIcon={<FiArrowLeft color="#2F2BAB" size={40} />}
-    >
-      {services.map((service, index) => (
-        <Carousel.Item key={index}>
-          <div className="d-flex justify-content-center">
-            <ServiceCard
-              svgImage={service.svgImage}
-              bgImage={service.bgImage}
-              title={service.title}
-              description={service.description}
-            />
-          </div>
-        </Carousel.Item>
-      ))}
-    </Carousel>
-  );
-};
-
-//Large Screen
-const ServicesStack = ({ services }) => {
-  return (
-    <>
-      {services.map((service, index) => (
-        <div className="d-flex justify-content-center" key={index}>
-          <ServiceCard
-            svgImage={service.svgImage}
-            bgImage={service.bgImage}
-            title={service.title}
-            description={service.description}
-          />
-        </div>
-      ))}
-    </>
   );
 };
 
