@@ -19,6 +19,8 @@ const Services = ({ services }) => {
   );
 };
 
+
+// Mobile Carousel
 const ServicesCarousel = ({ services }) => {
   return (
     <Carousel
@@ -44,6 +46,7 @@ const ServicesCarousel = ({ services }) => {
   );
 };
 
+//Large Screen
 const ServicesStack = ({ services }) => {
   return (
     <>

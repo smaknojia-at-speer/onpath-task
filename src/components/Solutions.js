@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import { FiArrowLeft, FiArrowRight } from "react-icons/fi";
+import {  FiArrowRight } from "react-icons/fi";
 import SolutionCard from "./SolutionCard";
 
 const Solutions = () => {
@@ -39,9 +39,11 @@ const Solutions = () => {
             <SolutionCard />
           </div>
           <div>
+            
+          {/* Figma doesn't have left arrow, but kept it incase we want to use,pending styling
             <div>
               <FiArrowLeft />
-            </div>
+            </div> */}
             <button
               onClick={clickHandler}
               className="position-absolute solution-button svg-right-arrow"

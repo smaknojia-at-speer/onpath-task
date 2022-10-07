@@ -1,22 +1,18 @@
 import React from "react";
-import phone from "./../assets/footer-phone.svg";
-import mail from "./../assets/footer-mail.svg";
-import linkedin from "./../assets/linkedIn.svg";
+import {FaLinkedinIn} from 'react-icons/fa'
+import {IoMdMail} from 'react-icons/io'
+import {AiFillPhone} from 'react-icons/ai'
 
 const FooterIcons = () => {
   return (
     <div className="footer-icons-button">
-      <img className="footer-icon__phone svg-radius" src={phone} alt="Phone" />
-      <img
-        className="footer-icon__mail xs-mx-3 svg-radius"
-        src={mail}
-        alt="Mail"
-      />
-      <img
-        className="footer-icon__linkedin svg-radius "
-        src={linkedin}
-        alt="LinkedIn"
-      />
+     <div  className="footer-icon__phone svg-radius">
+      <AiFillPhone size={24} color='#4d4abf' />
+     </div>
+      <div className="footer-icon__mail xs-mx-3 svg-radius"><IoMdMail size={24} color='#4d4abf' /></div>
+      <div className="footer-icon__mail xs-mx-3 svg-radius">
+      <FaLinkedinIn size={24} color="#4d4abf" />
+      </div>
     </div>
   );
 };
