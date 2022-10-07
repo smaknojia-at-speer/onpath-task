@@ -11,6 +11,7 @@ const Header = () => {
           width={"200px"}
           bgcolour="primary"
           content="Get Started"
+          href="#form"
         />
       </div>
     </header>

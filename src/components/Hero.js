@@ -22,6 +22,7 @@ const Hero = () => {
             bgcolour="primary"
             content="Get Started"
             width={"200px"}
+            href="#form"
           />
         </div>
         <HeroImages />
